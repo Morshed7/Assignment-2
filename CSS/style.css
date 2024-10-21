@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    background: rgb(72, 71, 71);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar section */
+.container{
+    width: 50%;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-option{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0.6px solid rgb(103, 101, 101);
+    border-radius: 40px;
+    padding-left: 7px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav-logo h3{
+color: rgb(230, 83, 60);
+font-size: 36px;
+font-weight: 800;
+
+}
+.nav-option p{
+    color: white;
+    font-size: 18px;
+}
+.span{
+    background-color:rgb(230, 83, 60);
+    padding: 8px 20px 8px 20px;
+    border-radius: 46px;
+    align-items: center;
+    
+}
+.hamburger-menu{
+    color: white;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 675px) {
+    .nav-option{
+        display: none;
+    }
+    .hamburger-menu{
+        color: white;
+        display: block;
+    }
+}
