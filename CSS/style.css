@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
 body{
     font-family: "Inter", sans-serif;
-    background: rgb(72, 71, 71);
+    background: rgb(6, 5, 5);
 }
 .second-font{
     font-family: "Corinthia", cursive;
@@ -19,15 +19,15 @@ body{
 /* navbar section */
 
 .navbar{
+    border: 2px solid rebeccapurple;
     display: flex;
     padding-top: 40px;
     align-items: center;
     margin-bottom: 50px;
     justify-content: space-evenly;
     flex-direction: row;
-   
-    
     margin: 0 auto;
+    max-width: 1440px;
     
 }
 .nav-option{
@@ -69,13 +69,13 @@ font-weight: 800;
 
 /* banner section */
 .banner-container{
-    width: 80%;
-    border: 2px solid goldenrod;
+    max-width: 1440px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     align-items: center;
     margin: 0 auto;
+    border: 2px solid rebeccapurple;
 
 }
 .banner-heading{
@@ -121,6 +121,59 @@ margin-bottom: 25px;
 }
 
 
+/* Change your habits Section Styles */
+.habit-container{
+    max-width: 1440px;
+    border: 2px solid rebeccapurple;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+
+.habits-heading{
+color:white;
+font-size: 48px;
+font-weight: 900;
+
+}
+.habits-paragraph{
+    color: #8c8c8c;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.text-content{
+    text-align: center;
+}
+
+
+.image-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.img-item img{
+    border-radius: 100%;
+}
+.img-item h5{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: -25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.img-item p{
+    color: #8c8c8c;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
 
 
 
@@ -167,7 +220,11 @@ margin-bottom: 25px;
         height: 50px;
     }
     
-
+    .image-content{
+        display: flex;
+        flex-direction: column;
+        
+    }
 
 
 
