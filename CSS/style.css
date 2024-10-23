@@ -16,7 +16,7 @@ body{
     padding: 0;
 }
 
-/* navbar section */
+/* -------------------------navbar section-------------------------- */
 
 .navbar{
     display: flex;
@@ -67,7 +67,7 @@ body{
     display: none;
 }
 
-/* ----------banner section------------------ */
+/* -------------------------banner section------------------------ */
 
 .banner-container{
     max-width: 1440px;
@@ -170,7 +170,7 @@ margin-bottom: 25px;
     font-size: 13px;
 }
 
-/* ...............Change your habits Section Styles.................... */
+/* -------------------Change your habits Section Styles---------------------------- */
 
 .habit-container{
     max-width: 1440px;
@@ -225,7 +225,7 @@ margin-bottom: 25px;
 }
 
 
-/* ...........Run an extra mile Easily section  Start...................*/
+/* -----------------------Run an extra mile Easily section  Start-----------------------*/
 
 .mile-container{
     max-width: 1060px;
@@ -275,7 +275,7 @@ margin-bottom: 25px;
     font-size: 20px;
 }
 
-/* ------------------ New Idea section Starts ------------------------------ */
+/* ------------------ -----New Idea section Starts ------------------------------ */
 
 .idea-container{
     max-width: 1440px;
@@ -323,7 +323,7 @@ margin-bottom: 25px;
 }
 
 
-/* ---------BMI Calculator Cart Section Starts--------------- */
+/* -----------------------BMI Calculator Cart Section Starts--------------- */
 
 .bmi-container{
     max-width: 1440px;
@@ -457,7 +457,7 @@ placeholder{
     margin-bottom: 50px;
 }
 
-/*------------- Meet Our Teams Section Starts---------------- */
+/*-------------------- Meet Our Teams Section Starts---------------- */
 
 .team-container{
     max-width: 1440px;
@@ -521,7 +521,7 @@ placeholder{
 }
 
 
-/* ------------footer Section Styles Start----------------- */
+/* ------------------footer Section Styles Start----------------- */
  
 .footer-container{
     max-width: 1440px;
@@ -596,7 +596,9 @@ placeholder{
 
 
 
-/* Responsive Design */
+/*-------------------- Responsive Design----------------------- */
+
+
 @media screen and (max-width: 675px) {
     .nav-option{
         display: none;
@@ -655,9 +657,6 @@ placeholder{
         left: -27px;
     }
 
-
-
-
     .image-content{
         display: flex;
         flex-direction: column;
@@ -713,8 +712,6 @@ placeholder{
         text-align: center;
         margin-left: 40px;
     }
-
-
 
     .footer-end-heading{
         text-align: left;
