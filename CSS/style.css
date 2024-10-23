@@ -104,8 +104,6 @@ margin-bottom: 25px;
     margin: 0px 14px;
     color: white;
     font-size: 20px;
-
-
 }
 
 .btn-2{
@@ -175,6 +173,7 @@ margin-bottom: 25px;
 }
 
 /* Change your habits Section Styles */
+
 .habit-container{
     max-width: 1440px;
     margin: 0px auto;
@@ -282,59 +281,40 @@ font-weight: 900;
 /* ------------------ New Idea section Starts ------------------------------ */
 
 .idea-container{
-    width: 1140px;
+    max-width: 1440px;
     margin: 0 auto;
-    margin-top: 70px;
+    background-image: url(../images/exercise.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    height: 500px;
+    margin-top: 80px;
+
 }
+
+
 .idea-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    margin-bottom: 50px;
-}
-
-
-.idea-content h4{
-    color: rgb(230, 83, 60);
-    font-size: 30px;
-    margin-bottom: 15px;
+    margin-left: 200px;
 }
 
 .idea-paragraph{
     color: white;
-    font-size: 40px;
+    text-transform: capitalize;
+    font-size: 30px
+    font-weight: 700;
 }
 
-.left-right-container{
-    display: flex;
-    margin-left: 115px;
 
-}
-.idea-left-content{
-    margin-left: 100px;
-}
-
-.free-member-heading{
+.idea-heading{
     color: white;
-    font-size: 25px;
-    font-weight: 700;
-
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.free-acess-heading{
-    color: rgb(230, 83, 60);
-    font-size: 20px;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 20px;
 
-}.left-content-para{
-    color: #8c8c8c;
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 20px;
-}
+
 .idea-btn{
     width: 224px;
     height: 54px;
@@ -346,10 +326,9 @@ font-weight: 900;
     font-size: 20px;
 }
 
-.idea-right-content img{
-    width: 60%;
-    margin-left: 50px;
-}
+
+
+
 
 
 
@@ -815,7 +794,12 @@ placeholder{
         margin-bottom: 5px;
     }
 
-
-
-
+    .idea-content{
+        margin-left: 100px;
+        margin-top: -150px;
+    
     }
+
+
+
+}
