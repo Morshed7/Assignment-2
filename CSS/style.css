@@ -232,6 +232,41 @@ font-weight: 900;
     font-size: 20px;
 }
 
+/* -- New Idea section Starts --- */
+
+.idea-container{
+    width: 1140px;
+   
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.idea-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+.idea-content h4{
+    color: rgb(230, 83, 60);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+.idea-paragraph{
+    color: white;
+    font-size: 60px;
+}
+
+
+
+
+
 
 /* BMI Calculator Cart Section Starts */
 
@@ -360,12 +395,6 @@ td{
 placeholder{
     text-align: left;
 }
-
-
-
-
-
-
 
 
 .form-btn{
@@ -535,7 +564,9 @@ placeholder{
 
 
 
-
+.display{
+    display: none;
+}
 
 
 
@@ -556,6 +587,10 @@ placeholder{
     .nav-option{
         display: none;
     }
+    .nav-logo h3{
+        margin-left: -112px;
+    }
+
     .hamburger-menu{
         color: white;
         display: block;
@@ -568,7 +603,16 @@ placeholder{
         padding-top: 40px;
         font-size: 50px;
         font-weight: 500;
+        margin-left: 23px;
     }
+
+
+        .banner-paragraph{
+            margin-left: 23px;
+    }
+
+
+
     .btn{
         display: flex;
         flex-direction: row;
@@ -641,6 +685,33 @@ placeholder{
         text-align: left;
         margin-left: 40px;
         
+    }
+
+    .bmi-content{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+
+    .bmi-container{
+        margin-left: 25px;
+        margin-right: 15px;
+    }
+
+    .five-fill{
+        padding: 14px 22px 16px 100px;
+    
+    }
+    
+    .second-fill{
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .four-fill{
+        margin-top: 15px;
+        margin-bottom: 5px;
     }
 
 
