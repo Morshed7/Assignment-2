@@ -45,9 +45,9 @@ body{
     padding-bottom: 5px;
 }
 .nav-logo h3{
-color: rgb(230, 83, 60);
-font-size: 36px;
-font-weight: 800;
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
 
 }
 .nav-option p{
@@ -67,7 +67,8 @@ font-weight: 800;
     display: none;
 }
 
-/* banner section */
+/* ----------banner section------------------ */
+
 .banner-container{
     max-width: 1440px;
     display: flex;
@@ -152,17 +153,14 @@ margin-bottom: 25px;
     bottom: 80px;
     right: 256px;
 }
+
 .circle{
     width: 40px;
     height: 40px;
     border-radius: 100%;
     background-color: rgb(230, 83, 60);
-   
-   
 }
-.vedio-text-2{
-    
-}
+
 .vedio-text-heading2{
     color: white;
     font-size: 40px;
@@ -172,7 +170,7 @@ margin-bottom: 25px;
     font-size: 13px;
 }
 
-/* Change your habits Section Styles */
+/* ...............Change your habits Section Styles.................... */
 
 .habit-container{
     max-width: 1440px;
@@ -181,9 +179,9 @@ margin-bottom: 25px;
 }
 
 .habits-heading{
-color:white;
-font-size: 48px;
-font-weight: 900;
+    color:white;
+    font-size: 48px;
+    font-weight: 900;
 
 }
 .habits-paragraph{
@@ -228,7 +226,7 @@ font-weight: 900;
 }
 
 
-/* Run an extra mile Easily section  Start*/
+/* ...........Run an extra mile Easily section  Start...................*/
 
 .mile-container{
     max-width: 1060px;
@@ -289,7 +287,6 @@ font-weight: 900;
     padding-top: 200px;
     height: 500px;
     margin-top: 80px;
-
 }
 
 
@@ -297,7 +294,7 @@ font-weight: 900;
     margin-left: 200px;
 }
 
-.idea-paragraph{
+.idea-paragraph {
     color: white;
     text-transform: capitalize;
     font-size: 30px
@@ -327,19 +324,7 @@ font-weight: 900;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* BMI Calculator Cart Section Starts */
+/* ---------BMI Calculator Cart Section Starts--------------- */
 
 .bmi-container{
     max-width: 1440px;
@@ -358,17 +343,11 @@ font-weight: 900;
     gap: 170px;
 }
 
-
-
 .bmi-left h3{
     color: white;
     font-size: 25px;
     font-weight: 800;
 }
-.bmi-left{
-
-}
-
 
 .bmi-right h3{
     color: white;
@@ -389,8 +368,6 @@ table{
     margin-top: 40px;
 }
 
-
-
 td, th{
     border: 1px solid #8c8c8c;
     padding: 5px 10px;
@@ -403,7 +380,6 @@ th{
 td{
     color: #8c8c8c;
 }
-
 
 .first-fill{
     padding: 14px 22px 16px 50px;
@@ -426,8 +402,8 @@ td{
     border-radius: 8px;
     border: none;
     outline: none;
-    
 }
+
 .third-fill{
     padding: 14px 22px 16px 50px;
     background-color: #393939;
@@ -449,9 +425,9 @@ td{
     font-weight: 400;
     border-radius: 8px;
     border: none;
-    outline: none;
-    
+    outline: none; 
 }
+
 .five-fill{
     padding: 14px 22px 16px 323px;
     background-color: #393939;
@@ -466,11 +442,9 @@ td{
     outline: none;
 }
 
-
 placeholder{
     text-align: left;
 }
-
 
 .form-btn{
     width: 224px;
@@ -484,13 +458,7 @@ placeholder{
     margin-bottom: 50px;
 }
 
-
-
-
-
-
-
-/* Meet Our Teams Section Starts */
+/*------------- Meet Our Teams Section Starts---------------- */
 
 .team-container{
     max-width: 1440px;
@@ -514,11 +482,9 @@ placeholder{
     line-height: 24px;
 }
 
-
 .team-container img{
     width: 90%;     
 }
-
 
 .row-1, .row-2{
     display: grid;
@@ -543,8 +509,6 @@ placeholder{
 
 .image-title{
     position: relative;
-   
-   
 }
 
 .image-title img{
@@ -558,7 +522,7 @@ placeholder{
 }
 
 
-/* footer Section Styles Start */
+/* ------------footer Section Styles Start----------------- */
  
 .footer-container{
     max-width: 1060px;
@@ -566,8 +530,7 @@ placeholder{
     background-color: #222222;
     margin: 0px auto;
     margin-top: 70px;
-    padding-top: 50px;
-    
+    padding-top: 50px;   
 }
 
 .footer-content{
@@ -577,8 +540,7 @@ placeholder{
 .footer-right-content{
     display: flex;
     margin-left: 180px;
-    gap: 100px;
-    
+    gap: 100px;  
 }
 
 
@@ -600,7 +562,6 @@ placeholder{
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 30px;
-
 }
 
 .footer-right-content p{
@@ -622,7 +583,6 @@ placeholder{
     margin-left: 50px;
     margin-top: 50px;
     margin-bottom: 30px;
-    
 }
 .footer-end-heading{
     color: #8c8c8c;
@@ -631,22 +591,6 @@ placeholder{
     text-align: center;
     padding-bottom: 20px;
 }
-
-
-.display{
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -675,12 +619,9 @@ placeholder{
         margin-left: 23px;
     }
 
-
         .banner-paragraph{
             margin-left: 23px;
     }
-
-
 
     .btn{
         display: flex;
@@ -699,10 +640,23 @@ placeholder{
         right: -19px;
     }
 
+    .vedio-tutorial{
+        width: 193px;
+        height: 98px;
+        background-color: #393939;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        position: absolute;
+        bottom: 80px;
+        left: -27px;
+    }
 
 
 
-    
+
     .image-content{
         display: flex;
         flex-direction: column;
@@ -713,16 +667,13 @@ placeholder{
         gap: 50px;
         margin-left: 12px;
         margin-right: 12px;
-        height: auto;
-        
+        height: auto; 
     }
-
 
     .mile-image-content img{
         width: 90%;
         margin: 15px;
     }
-
 
     .mile-paragraph{
        
@@ -755,6 +706,7 @@ placeholder{
          margin-top: 20px;
          gap: 50px;
      }
+
      .hr-style{
         
         width:70%;
@@ -763,15 +715,13 @@ placeholder{
 
     .footer-end-heading{
         text-align: left;
-        margin-left: 40px;
-        
+        margin-left: 40px;  
     }
 
     .bmi-content{
         display: flex;
         flex-direction: column;
-        gap: 50px;
-        
+        gap: 50px;  
     }
 
     .bmi-container{
@@ -781,7 +731,6 @@ placeholder{
 
     .five-fill{
         padding: 14px 22px 16px 100px;
-    
     }
     
     .second-fill{
@@ -797,9 +746,6 @@ placeholder{
     .idea-content{
         margin-left: 100px;
         margin-top: -150px;
-    
     }
-
-
 
 }
