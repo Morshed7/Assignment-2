@@ -197,7 +197,6 @@ margin-bottom: 25px;
     text-align: center;
 }
 
-
 .image-content{
     display: flex;
     flex-direction: row;
@@ -525,7 +524,7 @@ placeholder{
 /* ------------footer Section Styles Start----------------- */
  
 .footer-container{
-    max-width: 1060px;
+    max-width: 1440px;
     gap: 50px;
     background-color: #222222;
     margin: 0px auto;
@@ -535,6 +534,8 @@ placeholder{
 
 .footer-content{
    display: flex;
+   max-width: 1060px;
+   margin: 0px auto;
    
 }
 .footer-right-content{
@@ -580,7 +581,7 @@ placeholder{
     font-size: 5px;
     width:900px;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 250px;
     margin-top: 50px;
     margin-bottom: 30px;
 }
@@ -705,13 +706,15 @@ placeholder{
          margin-left: 40px;
          margin-top: 20px;
          gap: 50px;
-     }
-
-     .hr-style{
-        
-        width:70%;
-        text-align: center;
     }
+
+    .hr-style {
+        width: 75%;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+
 
     .footer-end-heading{
         text-align: left;
