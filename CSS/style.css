@@ -233,6 +233,159 @@ font-weight: 900;
 }
 
 
+/* BMI Calculator Cart Section Starts */
+
+.bmi-container{
+    max-width: 1440px;
+    justify-content: center;
+    border: 2px solid rebeccapurple;
+    margin: 0px auto;
+    justify-content: center;
+    background-color: #222222;
+    padding-top: 50px;
+    margin-top: 70px;
+}
+
+.bmi-content{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    gap: 170px;
+}
+
+
+
+.bmi-left h3{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+.bmi-left{
+
+}
+
+
+.bmi-right h3{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+.bmi-right p{
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+
+
+td, th{
+    border: 1px solid #8c8c8c;
+    padding: 5px 10px;
+}
+
+th{
+    color: white;
+    text-align: left;
+}
+td{
+    color: #8c8c8c;
+}
+
+
+.first-fill{
+    padding: 14px 22px 16px 50px;
+    background-color: #393939;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+    margin-right: 3px;
+}
+
+.second-fill{
+    padding: 14px 22px 16px 50px;
+    background-color: #393939;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+    
+}
+.third-fill{
+    padding: 14px 22px 16px 50px;
+    background-color: #393939;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+    margin-right: 3px;
+    margin-top: 12px;
+}
+
+.four-fill{
+    padding: 14px 22px 16px 50px;
+    background-color: #393939;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+    
+}
+.five-fill{
+    padding: 14px 22px 16px 323px;
+    background-color: #393939;
+    color: #8c8c8c;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+    margin-right: 3px;
+    margin-top: 12px;
+    margin-bottom: 35px;
+}
+
+
+placeholder{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+.form-btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background-color:rgb(230, 83, 60);
+    border: none;
+    margin: 0px 14px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
 /* Meet Our Teams Section Starts */
 
 .team-container{
@@ -318,6 +471,7 @@ font-weight: 900;
 
 .footer-content{
    display: flex;
+   
 }
 .footer-right-content{
     display: flex;
