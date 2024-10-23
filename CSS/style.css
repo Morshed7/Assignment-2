@@ -19,7 +19,6 @@ body{
 /* navbar section */
 
 .navbar{
-    border: 2px solid rebeccapurple;
     display: flex;
     padding-top: 40px;
     align-items: center;
@@ -76,7 +75,6 @@ font-weight: 800;
     flex-direction: row;
     align-items: center;
     margin: 0 auto;
-    border: 2px solid rebeccapurple;
 
 }
 .banner-heading{
@@ -117,15 +115,68 @@ margin-bottom: 25px;
     color: white;
     border: 1px solid white;
     background: transparent;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 
+
+.banner-img{
+    position: relative;
+}
+.free{
+    width: 193px;
+    height: 98px;
+    background-color: #393939;
+    border-radius: 8px;
+    padding: 20px;
+    position: absolute;
+    top: 137px;
+    right: -70px;
+}
+.free-heading{
+    color: white;
+    font-size: 40px;
+}
+.free-paragraph{
+    color: #8c8c8c;
+    font-size: 13px;
+}
+
+.vedio-tutorial{
+    width: 193px;
+    height: 98px;
+    background-color: #393939;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    
+    
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(230, 83, 60);
+   
+   
+}
+.vedio-text-2{
+    
+}
+.vedio-text-heading2{
+    color: white;
+    font-size: 40px;
+}
+.vedio-text-paragraph2{
+    color: #8c8c8c;
+    font-size: 13px;
+}
 
 /* Change your habits Section Styles */
 .habit-container{
     max-width: 1440px;
-    border: 2px solid rebeccapurple;
     margin: 0px auto;
     margin-top: 40px;
 }
@@ -195,10 +246,6 @@ font-weight: 900;
     padding-top: 40px;
     padding-left: 55px;
 }
-.mile-image-content{
-  
-    
-}
 
 .mile-image-content img{
     margin-top: 40px;
@@ -236,7 +283,6 @@ font-weight: 900;
 
 .idea-container{
     width: 1140px;
-   
     margin: 0 auto;
     margin-top: 70px;
 }
@@ -273,7 +319,6 @@ font-weight: 900;
 .bmi-container{
     max-width: 1440px;
     justify-content: center;
-    border: 2px solid rebeccapurple;
     margin: 0px auto;
     justify-content: center;
     background-color: #222222;
@@ -419,7 +464,6 @@ placeholder{
 
 .team-container{
     max-width: 1440px;
-    border: 2px solid rebeccapurple;
     margin: 0px auto;
     margin-top: 40px;
 }
@@ -474,7 +518,6 @@ placeholder{
 }
 
 .image-title img{
-    
     border-radius: 15px;
 }
 
@@ -482,7 +525,6 @@ placeholder{
     position: absolute;
     top: 320px;
     margin-left: 30px;
-    
 }
 
 
@@ -558,10 +600,7 @@ placeholder{
     font-weight: 400;
     text-align: center;
     padding-bottom: 20px;
-    
 }
-
-
 
 
 .display{
@@ -622,6 +661,17 @@ placeholder{
         width: 380px;
         height: 50px;
     }
+
+    .free {
+        width: 50%;
+        height: 96px;
+        top: 56px;
+        right: -19px;
+    }
+
+
+
+
     
     .image-content{
         display: flex;
