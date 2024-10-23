@@ -279,7 +279,7 @@ font-weight: 900;
     font-size: 20px;
 }
 
-/* -- New Idea section Starts --- */
+/* ------------------ New Idea section Starts ------------------------------ */
 
 .idea-container{
     width: 1140px;
@@ -299,15 +299,61 @@ font-weight: 900;
 .idea-content h4{
     color: rgb(230, 83, 60);
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
-
-
 
 .idea-paragraph{
     color: white;
-    font-size: 60px;
+    font-size: 40px;
 }
+
+.left-right-container{
+    display: flex;
+    margin-left: 115px;
+
+}
+.idea-left-content{
+    margin-left: 100px;
+}
+
+.free-member-heading{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.free-acess-heading{
+    color: rgb(230, 83, 60);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}.left-content-para{
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.idea-btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background-color:rgb(230, 83, 60);
+    border: none;
+    margin: 0px 14px;
+    color: white;
+    font-size: 20px;
+}
+
+.idea-right-content img{
+    width: 60%;
+    margin-left: 50px;
+}
+
+
+
+
 
 
 
@@ -389,6 +435,7 @@ td{
     border-radius: 8px;
     border: none;
     margin-right: 3px;
+    outline: none;
 }
 
 .second-fill{
@@ -399,6 +446,7 @@ td{
     font-weight: 400;
     border-radius: 8px;
     border: none;
+    outline: none;
     
 }
 .third-fill{
@@ -411,6 +459,7 @@ td{
     border: none;
     margin-right: 3px;
     margin-top: 12px;
+    outline: none;
 }
 
 .four-fill{
@@ -421,6 +470,7 @@ td{
     font-weight: 400;
     border-radius: 8px;
     border: none;
+    outline: none;
     
 }
 .five-fill{
@@ -434,6 +484,7 @@ td{
     margin-right: 3px;
     margin-top: 12px;
     margin-bottom: 35px;
+    outline: none;
 }
 
 
